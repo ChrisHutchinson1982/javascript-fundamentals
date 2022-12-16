@@ -6,6 +6,6 @@ const fetchJson = (url, callBack) => {
   });
 };
 
-fetchJson("https://jsonplaceholder.typicode.com/todos", (response) => {
+object = fetchJson("https://jsonplaceholder.typicode.com/todos", (response) => {
   console.log(response);
 });
